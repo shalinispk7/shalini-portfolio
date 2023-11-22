@@ -68,7 +68,7 @@
           <div class="home__content grid">
             <div class="home__social">
               <a
-                href="https://www.linkedin.com/in/shalini-s-91b014281"
+                href="https://www.linkedin.com/in/shalini-s-34a79329b/"
                 target="_blank"
                 class="home__social-icon"
               >
@@ -88,9 +88,9 @@
               >
                 <i class="uil uil-envelope"></i>
               </a>
-              <a href="tel:" target="_blank" class="home__social-icon">
+              <!-- <a href="tel:" target="_blank" class="home__social-icon">
                 <i class="uil uil-phone-alt"></i>
-              </a>
+              </a> -->
             </div>
             <div class="home__img">
               <img
@@ -102,16 +102,18 @@
             <div class="home__data">
               <h1 class="home__title">Hi, I'am Shalini</h1>
               <h3 class="home__subtitle">Front-End Developer</h3>
-              <p class="home__discription">
+              <!-- <p class="home__discription">
                 Bringing Web solutions to life with creativity, technical
                 excellence, and attention to detail, ensuring security,
                 scalability, and maintainability.
-              </p>
+              </p> -->
+
               <a
-                href="mailto:shalinispk7@gmail.com"
+                href="./assets/pdf/SHALINI_Resume.pdf"
+                download=""
                 class="button button--flex"
               >
-                Contact Me<i class="uil uil-message button__icon"></i>
+                Download CV<i class="uil uil-download-alt button__icon"></i>
               </a>
             </div>
           </div>
@@ -129,38 +131,20 @@
       <section class="about section" id="about">
         <h2 class="section__title">About Me</h2>
         <span class="section__subtitle">My introduction</span>
-        <div class="about__container container grid">
+        <div class="container grid">
           <div class="about__data">
-            <p class="about__description">
-              Front-End Developer with extensive knowledge and years of
-              experience, working in various UI frameworks, Node.js, web
-              technologies, delivering quality work.
-            </p>
-            <div class="about__info">
-              <div>
-                <span class="about__info-title">2+</span>
-                <span class="about__info-name"
-                  >Completed <br />
-                  products</span
-                >
-              </div>
-              <div>
-                <span class="about__info-title">5+</span>
-                <span class="about__info-name"
-                  >Completed <br />
-                  projects</span
-                >
-              </div>
-            </div>
-            <div class="about__buttons">
-              <a
-                href="./assets/pdf/SHALINI_Resume.pdf"
-                download=""
-                class="button button--flex"
-              >
-                Download CV<i class="uil uil-download-alt button__icon"></i>
-              </a>
-            </div>
+            <span class="about__description">
+              <ul class="about-ul">
+                <li>
+                  Proficient in HTML, CSS, and JavaScript fundamentals with a
+                  focus on responsive web design.
+                </li>
+                <li>
+                  Experienced with popular JavaScript frameworks like React and
+                  knowledgeable about component-based development.
+                </li>
+              </ul>
+            </span>
           </div>
         </div>
       </section>
@@ -305,7 +289,27 @@
 
         <div class="portfolio__container container swiper-container">
           <div class="swiper-wrapper">
-            <!--==================== PORTFOLIO 1 swiggy using js dom ====================-->
+            <!--==================== PORTFOLIO 1 flipkart using react ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="./assets/img/flipkart.png"
+                alt="portfolio image 2"
+                class="portfolio__img"
+              />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Flipkart</h3>
+                <p class="portfolio__description">Using React JS</p>
+                <a
+                  href="https://shalinispk7.github.io/flipkart-cloning-project/"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!--==================== PORTFOLIO 2 swiggy using js dom ====================-->
             <div class="portfolio__content grid swiper-slide">
               <img
                 src="./assets/img/portfolio2.png"
@@ -325,7 +329,7 @@
                 </a>
               </div>
             </div>
-            <!--==================== PORTFOLIO 2 yummy website ====================-->
+            <!--==================== PORTFOLIO 3 yummy website ====================-->
             <div class="portfolio__content grid swiper-slide">
               <img
                 src="./assets/img/num-bg.jpg"
@@ -345,7 +349,7 @@
                 </a>
               </div>
             </div>
-            <!--==================== PORTFOLIO 3 valva website ====================-->
+            <!--==================== PORTFOLIO 4 valva website ====================-->
             <div class="portfolio__content grid swiper-slide">
               <img
                 src="./assets/img/hero-bg.jpg"
@@ -357,107 +361,6 @@
                 <p class="portfolio__description">Using HTML CSS</p>
                 <a
                   href=" https://shalinispk7.github.io/vlava-website/"
-                  target="_blank"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-
-      <!--==================== MINI PROJECT ====================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Mini Projects</h2>
-        <span class="section__subtitle">Most recent work</span>
-
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!--==================== PORTFOLIO 1 stopwatch ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="./assets/img/stopwatch.png"
-                alt="portfolio image 2"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">StopWatch</h3>
-                <p class="portfolio__description">Using HTML,CSS,JAVASCRIPT</p>
-                <a
-                  href="https://shalinispk7.github.io/JS-stopwatch/"
-                  target="_blank"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!--==================== PORTFOLIO 2 instagram ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="./assets/img/insta-img.png"
-                alt="portfolio image 3"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  Instagaram Post- like,share,save image
-                </h3>
-                <p class="portfolio__description">Using HTML,CSS,JAVASCRIPT</p>
-                <a
-                  href="https://shalinispk7.github.io/JS-instagram-post/"
-                  target="_blank"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!--==================== PORTFOLIO 3 billing form ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="./assets/img/billingform.png"
-                alt="portfolio image 3"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Billing Form</h3>
-                <p class="portfolio__description">Using HTML CSS JS-DOM</p>
-                <a
-                  href="https://shalinispk7.github.io/JS-billing-form/"
-                  target="_blank"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!--==================== PORTFOLIO 4 accordian  ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img
-                src="./assets/img/accordian.png"
-                alt="portfolio image 3"
-                class="portfolio__img"
-              />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Accordian</h3>
-                <p class="portfolio__description">Using HTML,CSS,JAVASCRIPT</p>
-                <a
-                  href="https://shalinispk7.github.io/JS-accordian/"
                   target="_blank"
                   class="button button--flex button--small portfolio__button"
                 >
@@ -509,7 +412,7 @@
                   >
                   <div class="qualification__calender">
                     <i class="uil uil-calendar-alt"></i>
-                    Feb-Jul 2023
+                    Feb-Nov 2023
                   </div>
                 </div>
 
