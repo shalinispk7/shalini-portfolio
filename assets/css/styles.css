@@ -317,7 +317,7 @@ img {
 
 .home__blob-img {
   width: 200px;
-  animation: heartbeat 1.5s ease-in-out infinite;
+  animation: heartbeat 1.5s ease-in-out;
   /* border-radius: 50%; */
 }
 
